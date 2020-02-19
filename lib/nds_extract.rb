@@ -37,6 +37,7 @@ def directors_totals(nds)
     row += 1
   end
   pp result
+  result
   # end 
   # and total up all the
   # ...
