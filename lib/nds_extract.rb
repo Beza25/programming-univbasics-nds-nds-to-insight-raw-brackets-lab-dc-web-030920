@@ -21,7 +21,7 @@ def directors_totals(nds)
     end
   
     
-    result.merge({name => total})  
+    result.merge({:name => total})  
     
     
     p total
