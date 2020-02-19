@@ -19,14 +19,12 @@ def directors_totals(nds)
       total += directors_database[row][:movies][inner_row][:worldwide_gross]
       inner_row += 1
     end
-    
     result[name] = total
     row += 1
   end
   pp result
   result
   # end 
-  element = 0 
   
   # and total up all the
   # ...
