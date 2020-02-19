@@ -22,16 +22,7 @@ def directors_totals(nds)
     result[name] = total
     row += 1
   end
-  pp result
   result
-  # end 
-  
-  # and total up all the
-  # ...
-  # ...
-  # ...
-  #
-  #
-  # Be sure to return the result at the end!
+
   
 end
