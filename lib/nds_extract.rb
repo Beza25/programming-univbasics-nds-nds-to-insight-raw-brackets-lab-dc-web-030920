@@ -21,7 +21,7 @@ def directors_totals(nds)
     end
   
     
-    result << {"#{name}}" => total}  
+    result[name] = total
     
     p total
     total
@@ -31,9 +31,7 @@ def directors_totals(nds)
   result
   # end 
   element = 0 
-  while element < result.length do 
-    puts result[name][key]
-  end 
+  
   # and total up all the
   # ...
   # ...
